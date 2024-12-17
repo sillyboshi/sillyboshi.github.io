@@ -1,0 +1,70 @@
+body{
+    background-color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.topnav {
+    background-color: green;
+    overflow: hidden;
+    border-radius: 15px;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: red;
+    color: white;
+  }
+  .text1{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10%;
+  }
+  .img1{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    left: 5%;
+    transform: translateX(-5%);
+    top: 25%;
+    border-radius: 15px;
+  }
+  .img2{
+    height: 300px;
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 25%;
+    border-radius: 15px;
+  }
+  .img3{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    left: 95%;
+    transform: translateX(-95%);
+    top: 25%;
+    border-radius: 15px;
+  }
+  .img4{
+    height: 300px;
+    width: 500px;
+    position: absolute;
+    left: 6.5%;
+    transform: translateX(-6.5%);
+    top: 80%;
+    border-radius: 15px;
+  }
